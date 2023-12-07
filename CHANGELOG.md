@@ -3,7 +3,8 @@
 Note: For changes to the API, see https://shopify.dev/changelog?filter=api
 
 ## Unreleased
-[#1210](https://github.com/Shopify/shopify-api-ruby/pull/1246) Add context option `response_as_struct` to allow GraphQL API responses to be accessed via dot notation.
+- [#1210](https://github.com/Shopify/shopify-api-ruby/pull/1246) Add context option `response_as_struct` to allow GraphQL API responses to be accessed via dot notation.
+- [#1254](https://github.com/Shopify/shopify-api-ruby/pull/1254) Introduce token exchange API for fetching access tokens. This feature is currently unstable and cannot be used yet.
 
 ## 13.3.1
 
