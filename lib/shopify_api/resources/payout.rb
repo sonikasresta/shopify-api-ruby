@@ -1,5 +1,5 @@
 module ShopifyAPI
   class Payout < Base
-    self.prefix = 'shopify_payments/'
+    self.resource_prefix = 'shopify_payments/'
   end
 end

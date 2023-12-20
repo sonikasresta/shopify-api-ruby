@@ -1,6 +1,6 @@
 module ShopifyAPI
   class ShopifyPayout < Base
-    self.prefix = 'shopify_payments/payouts/'
+    self.resource_prefix = 'shopify_payments/payouts/'
 
     def self.find_search(date_min=Time.zone.now.beginning_of_month.to_date.to_s, date_max=Time.zone.now.end_of_month.to_date.to_s)
       self.find(:all, 
